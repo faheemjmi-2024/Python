@@ -1,6 +1,6 @@
 # Multiplication Table but Skip 5th iteration
 
-number = 3
+number = int(input("Enter a number:"))
 for i in range (1, 11):
     if i == 5:
         continue
